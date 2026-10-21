@@ -96,24 +96,11 @@ Illustrative DAX patterns are documented in [`docs/dax-measures.md`](docs/dax-me
 
 1. Download or clone this repository.
 2. Open `report/Sales Analysis.pbix` with **Power BI Desktop**.
-3. If Power BI prompts for missing source paths, place the source files in `data/raw/` and update the source paths in Power Query as needed.
-4. Select **Transform data** to review the queries, then use **Close & Apply** if changes are required.
-5. Refresh the model and inspect the report page.
+3. Select **Transform data** to review the queries, then use **Close & Apply** if changes are required.
+4. Refresh the model and inspect the report page.
 
 Power BI Desktop is required to inspect or edit the PBIX. A GitHub preview does not provide the full interactive Power BI experience.
 
 ## Reproducing the transformations
 
 The documented Power Query steps and model design are in [`docs/data-model-and-power-query.md`](docs/data-model-and-power-query.md). The source brief includes combining the 1997 and 1998 Excel workbooks from a folder, standardizing types, and creating derived fields such as full name, birth year, discount price, full address, area code, calendar attributes, and weekend flag.
-
-## Limitations and verification
-
-- The uploaded PBIX is included as provided; it has not been edited or rebuilt.
-- The source CSV/XLSX files were not included in the upload used to create this repository, so the package cannot independently validate refresh behavior.
-- Formulas in the DAX documentation are reference implementations based on the assignment brief, not an assertion that every formula exactly matches the model's existing measures.
-- No revenue, profit, return-rate, or geographic findings are reported without validating the underlying data.
-- For public GitHub publication, confirm that you are allowed to share the PBIX and source data, and remove any personal, confidential, or licensed information.
-
-## Next portfolio improvement
-
-Add a screenshot of the report to `screenshots/`, then write a short findings section based on the actual model output (for example, leading brands, monthly revenue movement, or locations with unusual return rates). Only include findings you can verify from the report.
