@@ -40,23 +40,6 @@ The report page, **Sales Analysis**, includes:
 - DAX: calculated columns, iterator-based revenue and cost measures, profitability metrics, return rate, and previous-month time-intelligence measures.
 - Report design: matrix conditional formatting, KPI visuals, map, slicer, treemap, column chart, gauge, drill-down, filtering, and visual interaction control.
 
-## Repository structure
-
-```text
-sales-analysis/
-├── README.md
-├── .gitignore
-├── report/
-│   └── Sales Analysis.pbix
-├── data/
-│   └── raw/
-│       └── README.md
-├── docs/
-│   ├── data-model-and-power-query.md
-│   └── dax-measures.md
-└── screenshots/
-    └── README.md
-```
 
 ## Data files
 
