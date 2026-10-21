@@ -2,8 +2,6 @@
 
 An interactive sales and profitability report built in **Microsoft Power BI Desktop**. The project brings together sales transactions, product, customer, store, region, calendar, and returns data to explore business performance across time and locations.
 
-> **Portfolio note:** This repository documents a project completed as a Power BI final assignment and presents it as a portfolio case study. The PBIX file is included. The source CSV/XLSX files were not attached in the materials used to assemble this repository, so the `data/raw/` folder contains instructions rather than the underlying data files. The report's calculations and visuals are documented from the supplied project brief; no unsupported business findings are claimed.
-
 ## Business objective
 
 Understand sales performance and product returns through a single report, with measures for revenue, cost, profit, margin, transaction volume, and return rate. The report is designed to let a viewer compare performance by product brand, store location, and time period.
@@ -18,7 +16,9 @@ Understand sales performance and product returns through a single report, with m
 
 ## Report preview
 
-Open [`report/Sales Analysis.pbix`](report/Sales%20Analysis.pbix) in Power BI Desktop to explore the report. A screenshot can be added to `screenshots/` and linked here when available.
+Open [`report/Sales Analysis.pbix`](report/Sales%20Analysis.pbix) in Power BI Desktop to explore the report. 
+The screenshot below: 
+<img width="1998" height="1122" alt="Screenshot 2026-10-21 135522" src="https://github.com/user-attachments/assets/15a3d1cd-a7f0-4cda-a7ef-f89fc9322553" />
 
 ## Dashboard features
 
@@ -73,7 +73,6 @@ The project brief specifies these source files:
 | `Transactions_1997.xlsx` | Sales transaction data for 1997 |
 | `Transactions_1998.xlsx` | Sales transaction data for 1998 |
 
-The transaction workbooks are intended to be combined into one `Transactions` table. See [`data/raw/README.md`](data/raw/README.md) for the expected placement and refresh guidance.
 
 ## Data model overview
 
