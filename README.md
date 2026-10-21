@@ -1,4 +1,4 @@
-# Sales Analysis | Power BI Portfolio Project
+# Sales Analysis | Power BI Project
 
 An interactive sales and profitability report built in **Microsoft Power BI Desktop**. The project brings together sales transactions, product, customer, store, region, calendar, and returns data to explore business performance across time and locations.
 
