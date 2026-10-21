@@ -18,7 +18,7 @@ Understand sales performance and product returns through a single report, with m
 
 Open [`report/Sales Analysis.pbix`](report/Sales%20Analysis.pbix) in Power BI Desktop to explore the report.
 
-The screenshot below: 
+The report below shows the Sales Analysis dashboard.: 
 
 
 <img width="1998" height="1122" alt="Screenshot 2026-10-21 135522" src="https://github.com/user-attachments/assets/15a3d1cd-a7f0-4cda-a7ef-f89fc9322553" />
