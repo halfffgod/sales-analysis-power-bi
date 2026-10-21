@@ -1,9 +1,0 @@
-# Temporary / local files
-~$*
-*.tmp
-*.bak
-.DS_Store
-Thumbs.db
-# Optional local exports
-*.csv
-*.xlsx
